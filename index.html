@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Sit on Chair, usiądź na naszym krześle">
+  <meta name="keywords" content="design, meble, krzeslo, krzesła, komfort, odpoczynek">
+  <title>Sit on Chair</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navi"> <!-- menu-->
+    <div class="container">
+      <div class="navi__half">
+        <p>
+          <a href="#">sit
+                  <span class="word--promoted">
+                    on
+                  </span>
+                chair
+              </a>
+        </p>
+      </div>
+      <div class="navi__half menu">
+        <ul>
+          <li><a href="#">kontakt</a></li>
+          <li><a href="#">galeria</a></li>
+          <li><a href="#">o firmie</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="slider"> <!-- slider-->
+    <div class="container">
+      <div class="slider__skip">
+        <p>
+          <a href="#">&lt;</a>
+        </p>
+      </div>
+      <img class="slider__photo" src="images/black_chair.png" alt="Want to sit?">
+      <div class="slider__half">
+        <h1>
+              sit
+              <span class="word--promoted">
+                on
+              </span>
+              our
+              <span class="word--promoted">
+                chair
+              </span>
+            </h1>
+        <p>
+          Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.
+        </p>
+        <a href="#" target="_blank" class="slider__button">
+              zobacz więcej
+            </a>
+      </div>
+      <div class="slider__skip">
+        <p>
+          <a href="#">&gt;</a>
+        </p>
+      </div>
+  </header>
+  <!-- first container -->
+  <main class="main-content">
+    <div class="container">
+      <div class="main-content__item">
+        <a href="#">
+                <img src="images/box1_img.jpg" alt="Take a sit">
+              </a>
+        <div class="main-content__item--label">
+          <p class="word--underlined">Chair CLAIR</p>
+        </div>
+      </div>
+      <!-- second container -->
+      <div class="main-content__item">
+        <a href="#">
+                <img src="images/box2_img.jpg" alt="Sit with Us">
+              </a>
+        <div class="main-content__item--label">
+          <p class="word--underlined">Chair MARGARITA</p>
+        </div>
+      </div>
+      <!-- third container -->
+      <a href="#">
+        <div class="main-content__description">
+          <h3 class="word--underlined">Finds all inputs</h3>
+          <p>
+            Finds all inputs that are not checked and highlights the next sibling span. Notice there is no change when clicking the checkboxes since no click events have been linked.
+            <br>
+            <br> Notice there is no change when clicking the checkboxes since no click events have been
+          </p>
+        </div>
+      </a>
+    </div>
+  </main>
+  <section class="prices">
+    <div class="container">
+      <h3 class="word--underlined apart">cennik</h3>
+      <div class="pricers">
+        <!--pierwszy pricer-->
+        <div class="pricer first">
+          <div class="kolobig">
+            <div class="kolosmall">
+            </div>
+          </div>
+          <h2>Basic Plan</h2>
+          <div class="price-circle">
+            <p id="price-circle__num">8
+              <p id="price-circle__num">
+                5
+                <sup>99</sup>
+              </p>
+            </p>
+            <p id="price-circle__value">
+              pln/msc
+            </p>
+          </div>
+          <ul class="pricer__services">
+            <li>Zakup towaru + dowóz</li>
+            <li>Serwis</li>
+          </ul>
+          <a class="pricer__button" href="#" target="_blank">dołącz</a>
+        </div>
+        <!--drugi pricer-->
+        <div class="pricer--midi">
+          <div class="kolobig--midi">
+            <div class="kolosmall--midi">
+            </div>
+          </div>
+          <h2>Standard Plan</h2>
+          <div class="price-circle--midi">
+            <p class="price-circle__num">
+              95
+              <sup>99</sup>
+            </p>
+            <p class="price-circle__value">
+              pln/msc
+            </p>
+          </div>
+          <ul class="pricer__services--flipcolor">
+            <li>Zakup towaru + dowóz</li>
+            <li>Serwis</li>
+            <li>Gwarancja 5 lat</li>
+          </ul>
+          <a class="pricer__button--flipcolor" href="#" target="_blank">dołącz</a>
+        </div>
+        <!--trzeci pricer-->
+        <div class="pricer last">
+          <div class="kolobig">
+            <div class="kolosmall">
+            </div>
+          </div>
+          <h2>Advance Plan</h2>
+          <div class="price-circle">
+            <p id="price-circle__num">211<sup>00</sup>
+            </p>
+            <p id="price-circle__value">
+              pln/msc
+            </p>
+          </div>
+          <ul class="pricer__services">
+            <li>Zakup towaru +dowóz</li>
+            <li>Serwis</li>
+            <li>Gwarancja 6 lat</li>
+            <li>Porady projektanta</li>
+          </ul>
+          <a class="pricer__button" href="#" target="_blank">dołącz</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="container">
+      <h3 class="word--underlined apart">Kontakt</h3>
+      <form class="form" action="index.html" method="post">
+        <div class="formhalf__datas">
+          <input type="text" id="firstName" placeholder="Imię" autofocus>
+          <input type="email" id="email" placeholder="email" autofocus>
+          <textarea name="infoOSobie" id="infoOSobie" cols="" rows="10" maxlength="10000" placeholder="Wiadomość" autofocus></textarea>
+        </div>
+        <div class="formhalf__confirmation">
+          <img src="images/red_chair.png" alt="Sit and confirm">
+          <div class="gather">
+            <input type="checkbox" name="remember-me" value="remember" class="gather__remember-me">
+            <label for="remember-me" class="gather__remember-me__txt">
+                    Zgadzam się na przetwarzanie <br> danych osobowych
+                  </label>
+          </div>
+          <button type="submit" class="gather__button">wyślij</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <div class="container">
+    <footer class="footer">
+      <div class="footer__copyrights">
+        <span class="word--promoted-footer">
+              Copyright 2014 | All Rights Reserved - Sit On Chair
+            </span>
+      </div>
+      <div class="footer__icons">
+        <a href="#"><img src="images/flickr.png" alt="Go Flickr"></a>
+        <a href="#"><img src="images/vimeo.png" alt="Go Vimeo"></a>
+        <a href="#"><img src="images/pinterest.png" alt="Go Pinterest"></a>
+        <a href="#"><img src="images/twitter.png" alt="Go Twitter"></a>
+      </div>
+      <div class="footer__logo">
+        <span class="word--promoted-footer">
+              Sit On Chair
+            </span>
+      </div>
+    </footer>
+  </div>
+  </body>
+
+  </html>
